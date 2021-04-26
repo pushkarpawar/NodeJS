@@ -1,0 +1,10 @@
+{
+    "name" : "nodejs",
+    "version" : "0.0.0",
+    "scripts": {
+        "start" : "node hello.js"
+    },
+    "engines": {
+        "node" : "^4.14.0"
+    }
+  }
