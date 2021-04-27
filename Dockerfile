@@ -1,6 +1,6 @@
-FROM node:14
-WORKDIR /app
-COPY * /app/
+FROM node:6-alpine 
+EXPOSE 3000
+WORKDIR /usr/src/app
+COPY . .
 RUN npm install
-EXPOSE 8080
 CMD npm start
