@@ -1,5 +1,5 @@
 FROM node:6-alpine 
-EXPOSE 3000
+EXPOSE 80
 WORKDIR /usr/src/app
 COPY . .
 RUN npm install
